@@ -1,0 +1,108 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{zinth}{book}{}
+      \name{author}{3}{}{%
+        {{hash=04f295bc0a7fa5de5f839c23849c1ca1}{%
+           family={Bonertz},
+           familyi={B\bibinitperiod},
+           given={Tina},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7230ab5498f738b48938f48cf798cd1f}{%
+           family={Zinth},
+           familyi={Z\bibinitperiod},
+           given={Ursula},
+           giveni={U\bibinitperiod}}}%
+        {{hash=5849780fef6d89f4a9000e949cfdcdf9}{%
+           family={Zinth},
+           familyi={Z\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter}%
+      }
+      \strng{namehash}{fd4e6df4b7590ea344cb61c99a00b936}
+      \strng{fullhash}{fd4e6df4b7590ea344cb61c99a00b936}
+      \strng{bibnamehash}{fd4e6df4b7590ea344cb61c99a00b936}
+      \strng{authorbibnamehash}{fd4e6df4b7590ea344cb61c99a00b936}
+      \strng{authornamehash}{fd4e6df4b7590ea344cb61c99a00b936}
+      \strng{authorfullhash}{fd4e6df4b7590ea344cb61c99a00b936}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Optik: Lichtstrahlen - Wellen - Photonen}
+      \field{year}{2013}
+    \endentry
+    \entry{phying}{book}{}
+      \name{author}{6}{}{%
+        {{hash=29be8b370d75b426ff18a2557da6b5da}{%
+           family={Hering},
+           familyi={H\bibinitperiod},
+           given={Ekbert},
+           giveni={E\bibinitperiod}}}%
+        {{hash=24dac3d99d573948e9497fd2125dce8d}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Rolf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=db3047a5882586aee27860a863517662}{%
+           family={Stohrer},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e2ed38d6ab9565762814ef368625a6c5}{%
+           family={Hanno},
+           familyi={H\bibinitperiod},
+           given={Käß},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2a168e03a08f8191bc84aa4339c32c40}{%
+           family={Günther},
+           familyi={G\bibinitperiod},
+           given={Kurz},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d61411c023119861d6eb0a330c3e3195}{%
+           family={Schulz},
+           familyi={S\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin}%
+      }
+      \strng{namehash}{e4dc30aba52a3ddce25db45ec733b5b0}
+      \strng{fullhash}{b0797fb668d45ce6baaa1900368598f9}
+      \strng{bibnamehash}{e4dc30aba52a3ddce25db45ec733b5b0}
+      \strng{authorbibnamehash}{e4dc30aba52a3ddce25db45ec733b5b0}
+      \strng{authornamehash}{e4dc30aba52a3ddce25db45ec733b5b0}
+      \strng{authorfullhash}{b0797fb668d45ce6baaa1900368598f9}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Physik für Ingenieure}
+      \field{year}{2016}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

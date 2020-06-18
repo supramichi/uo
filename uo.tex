@@ -4,22 +4,36 @@
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
 \usepackage{siunitx}
+\usepackage{import}
 \usepackage{graphicx}
+\usepackage{color}
 \usepackage{wrapfig}
 \usepackage{hyperref}
 \usepackage{float}
+\usepackage[backend=biber,%
+defernumbers=true,%
+eprint=false,%
+doi=false,%
+maxnames=5]{biblatex}
+\addbibresource{literatur.bib}
+
+\renewbibmacro{in:}{}
 
 \title{Ultraschnelle Optik}
 \author{Michael Rößner \and Jonas Schambeck}
 
-\begin{document}
-	\input{titlepage.tex}
-	\tableofcontents
+\def\f#1{\textbf{#1}}
 
-%\input{Kap/einleitung.tex}
-%\input{Kap/vorbereitung.tex}
-%\input{Kap/durchfuehrung.tex}
-%\input{Kap/fazit.tex}
-%\input{Kap/quellen.tex}
+\begin{document}
+    \include{titlepage}
+    \tableofcontents
+
+    \include{Kap/einleitung}
+    \include{Kap/vorbereitung}
+    \include{Kap/durchfuehrung}
+    \include{Kap/fazit}
+    \include{Kap/quellen}
+
+\printbibliography
 
 \end{document}

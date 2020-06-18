@@ -1,0 +1,80 @@
+\chapter{Vorbereitung}
+
+\section{Technische Grundlagen}
+
+Zur Untersuchung optischer Phänomene müssen umfangreiche experimentelle Aufbauten
+mit komplizierten Geräten verwendet werden. Hier soll kurz in die für diesen
+Versuch notwendige Technik eingeführt werden.
+
+    \subsection{Laser}
+
+Der Laser (\f light \f amplification by \f stimulated \f emission of \f radiation)
+ist eine Lichtquelle, die sich durch hohe Strahlungsintensität, einen engen 
+Frequenzbereich, starker Bündelung des Strahls und einer großen Kohärenzlänge 
+auszeichnet.
+\begin{figure}[h]
+  \centering
+    \import{Abb/}{emission.pdf_tex}
+  \caption{Wechselwirkung zwischen Photonen und Elektronen im Atom}
+  \label{abb:emission}
+\end{figure}
+Zur Lichterzeugung wird die \emph{spontane} und \emph{induzierte Emission} 
+ausgenutzt, die in Abbildung \ref{abb:emission} skizziert ist. Ein Photon kann
+ein gebundenes Elektron durch \emph{Absorption} auf ein höheres Energieniveau 
+heben. Selbiges kann durch \emph{spontane Emission} unter Abgabe eines Photons
+zurück in das niedrigere Niveau wechseln. Trifft dieses Photon auf ein weiteres
+angeregtes Elektron, so kann dieses Elektron zur Emission angeregt werden, zur
+\emph{induzierten Emission}. Wichtig ist hierbei, dass alle Photonen die gleiche
+Energie tragen. Das Licht ist also monochromatisch. \par
+Soll mithilfe dieses Prinzips ein intensiver Strahl erzeugt werden, so müssen 
+möglichst viele Elektronen in diesen angeregten Zustand gebracht werden. Hierzu
+verwendet man eine \emph{Pumpquelle}, siehe Abbildung \ref{abb:aufbau_laser}.
+Diese Pumpe regt im \emph{aktiven Material},
+also das Material, in dem die Emission stattfinden soll, die Elektronen an, sodass
+mehr Elektronen im energetisch höheren Energieband aufhalten. Dieser Zustand wird
+\emph{Besetzungsinversion} genannt. Durch spontane Emission wandern erste Photonen
+durch das aktive Material und induzieren weitere Emission. 
+Ein \emph{optischer Resonator}, oft verwirklicht durch zwei Spiegel, reflektiert nun
+die Photonen immer wieder zurück in das aktive Material, wodurch sich eine stehende
+Welle bildet. Der vordere Spiegel lässt immer einen Teil der Strahlung entweichen.
+So entsteht ein homogener, intensiver Strahl. 
+\begin{figure}[h]
+  \centering
+  \import{Abb/}{aufbau_laser.pdf_tex}
+  \caption{Aufbau eines Lasers}
+  \label{abb:aufbau_laser}
+\end{figure}
+
+Zur Versuchsdurchführung wird eine besondere Bauart des Lasers verwendet, der 
+\emph{Faserlaser}. Dieser gibt statt einem kontinuierlichen Strahl kurze Pulse ab.
+Der Aufbau ist hier komplexer, siehe Abbildung \ref{abb:faser}.
+\begin{figure}[h]
+  \centering
+  \import{Abb/}{faserlaser.pdf_tex}
+  \caption{Aufbau eines Faserlasers}
+  \label{abb:faser}
+\end{figure}
+Das aktive Medium ist eine Erbium-dotierte Glasfaser. Durch eine Leuchtdiode, in der
+Abbildung \emph{Pump Diode}, wird eine Besetzungsinversion der Erbium-Ionen
+hergestellt. An den Enden der Faser bilden zwei teildurchlässige Spiegel den 
+Resonator. Durch einen sättigbaren Absorber, \emph{SAM}, der nur kurze intensive
+Impulse transmittiert, wird der gepulste Charakter des Lasers erreicht. Nach dem 
+Verlassen des Oszillators erfolgt eine weitere Verstärkung in einer dotierten 
+Glasfaser, wieder durch eine Diode gepumpt, bevor der Impuls ausgesendet wird. 
+\autocite{phying, zinth}
+
+    \subsection{Photodiode}
+
+    \subsection{Halbleiter}
+
+    \subsection{Lock-In Verstärker}
+
+    \subsection{Pump-Probe Versuch}
+
+\section{Nichtlineare Optik}
+    \subsection{Doppelbrechung}
+
+    \subsection{Phasenanpassung}
+
+    \subsection{Nichtlineare Autokorrelation}
+
