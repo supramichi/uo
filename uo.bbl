@@ -102,6 +102,26 @@
       \field{title}{Physik für Ingenieure}
       \field{year}{2016}
     \endentry
+    \entry{wiki:diode}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8b596c51ab0b2414634e2eac900a499b}{%
+           family={Saure},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b596c51ab0b2414634e2eac900a499b}
+      \strng{fullhash}{8b596c51ab0b2414634e2eac900a499b}
+      \strng{bibnamehash}{8b596c51ab0b2414634e2eac900a499b}
+      \strng{authorbibnamehash}{8b596c51ab0b2414634e2eac900a499b}
+      \strng{authornamehash}{8b596c51ab0b2414634e2eac900a499b}
+      \strng{authorfullhash}{8b596c51ab0b2414634e2eac900a499b}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://de.wikipedia.org/wiki/Diode}}
+      \field{note}{Zuletzt Zugegriffen: 20.06.2020, bearbeitet}
+      \field{title}{Diode}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

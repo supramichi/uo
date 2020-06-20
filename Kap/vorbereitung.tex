@@ -11,14 +11,20 @@ Versuch notwendige Technik eingeführt werden.
 
 Den Halbleiter zeichnet eine Bandlücke zwischen \emph{Valenzband} und 
 \emph{Leitungsband} aus, das kleiner ist als beim Isolator, aber groß genug,
-um sich vom Leiter abzugrenzen, siehe Abbildung \ref{abb:band-halbleiter}.
+um sich vom Leiter abzugrenzen, siehe Abbildung \ref{abb:band}.
 In der Technik findet sich der Halbleiter inzwischen überall.
 Auch in diesem Experiment wird der Halbleiter Verwendung finden.
 \begin{figure}[h]
-  \centering
-  \input{Abb/band-halbleiter.tex}
-  \caption{Bandstruktur eines Halbleiters}
-  \label{abb:band-halbleiter}
+  \begin{subfigure}{0.3\textwidth}
+    %\centering
+    \input{Abb/band-halbleiter.tex}
+  \end{subfigure}
+  \begin{subfigure}{0.7\textwidth}
+    %\centering
+    \input{Abb/band-dotiert.tex}
+  \end{subfigure}
+  \caption{Bandstrukturen eines (a) reinen Halbleiters, (b) dotierten Halbleiters}
+  \label{abb:band}
 \end{figure}
 In der Technik werden Halbleiter meist \emph{dotiert}. Hierbei werden gezielt 
 Fremdatome in das Gitter eingebracht, um so das Verhältnis von Lochdichte zu
@@ -26,14 +32,35 @@ Elektronendichte zu manipulieren. \emph{Donatoren} geben Elektronen an das Gitte
 ab, während \emph{Akzeptoren} diese aufnehmen und so ein zusätzliches Loch 
 schaffen. Da die Bindungsenergie des Donators kleiner als die Bandlücke, entstehen
 zusätzliche Niveaus, die energetisch etwas tiefer liegen, als das Leitungsband.
-Beim Akzeptor entstehen neue Niveaus etwas oberhalb des Valenzbandes.
+Beim Akzeptor entstehen neue Niveaus etwas oberhalb des Valenzbandes, siehe 
+Abbildung \ref{abb:band}.
+Bringt man nun zwei gegensätzlich dotierte Halbleiter in Kontakt, das mit Donatoren
+dotierte Gebiet nennt man n-Typ, das mit Akzeptoren dotierte p-Typ, so entsteht an
+der Grenzfläche der \emph{pn-Übergang}, siehe Abbildung \ref{abb:pn}.
 \begin{figure}[h]
   \centering
-  \input{Abb/band-dotiert.tex}
-  \caption{Bandstruktur eines dotierten Halbleiters}
-  \label{abb:band-dotiert}
+  \input{Abb/pn.tex}
+  \caption{Konzentration von Donatoren und Akzeptoren. $N_D$ beschreibt hier die
+           Donatorkonzentration, $N_A$ die Akzeptorkonzentration.}
+  \label{abb:pn}
 \end{figure}
-
+Durch die unterschiedlichen Dotierungen entsteht in Richtung des p-dotierten Gebiets
+ein Konzentrationsgefälle für Elektronen, während in Richtung des n-dotierten 
+Gebiets ein Gefälle der Löcherkonzentration entsteht. Dies führt zu einem
+Elektronenstrom in das p-, und einem Löcherstrom in das n-Gebiet. Die Folge dieser
+Ströme ist eine Verarmung an beweglichen Ladungsträgern im Gebiet um den 
+Übergang. Da die Ionen, Donatoren und Akzeptoren, nicht mehr durch freie Elektronen
+und Löcher kompensiert werden, entsteht ein Gebiet mit positive/negative 
+Raumladung. Dieses Gebiet wird \emph{Raumladungszone} genannt. Legt man an den
+pn-Übergang eine Spannung an kann man die typische Diodenkennlinie beobachten,
+siehe Abbildung \ref{abb:diodui}.
+Der pn-Übergang ist also Basis für den Großteil der modernen Technologie.
+\begin{figure}
+  \centering
+  \scalebox{0.5}{\import{Abb/}{diodenkennlinie.pdf_tex}}
+  \caption{Qualitative Darstellung einer Diodenkennlinie \autocite{wiki:diode}}
+  \label{abb:diodui}
+\end{figure}
 
     \subsection{Laser}
 
@@ -43,7 +70,7 @@ Frequenzbereich, starker Bündelung des Strahls und einer großen Kohärenzläng
 auszeichnet.
 \begin{figure}[h]
   \centering
-    \import{Abb/}{emission.pdf_tex}
+  \import{Abb/}{emission.pdf_tex}
   \caption{Wechselwirkung zwischen Photonen und Elektronen im Atom}
   \label{abb:emission}
 \end{figure}
