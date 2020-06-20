@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.18)  20 JUN 2020 13:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.18)  20 JUN 2020 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1229,110 +1229,101 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-] (./Abb/emission.pdf_tex
-<Abb/emission.pdf, id=69, page=1, 301.77306pt x 167.05725pt>
+] [5 <./Abb/diodenkennlinie.pdf>] (./Abb/emission.pdf_tex
+<Abb/emission.pdf, id=78, page=1, 301.77306pt x 167.05725pt>
 File: Abb/emission.pdf Graphic file (type pdf)
 <use Abb/emission.pdf, page 1>
 Package pdftex.def Info: Abb/emission.pdf , page1 used on input line 57.
 (pdftex.def)             Requested size: 301.77304pt x 167.06956pt.
-<Abb/emission.pdf, id=70, page=2, 301.77306pt x 167.05725pt>
+<Abb/emission.pdf, id=79, page=2, 301.77306pt x 167.05725pt>
 File: Abb/emission.pdf Graphic file (type pdf)
 <use Abb/emission.pdf, page 2>
 Package pdftex.def Info: Abb/emission.pdf , page2 used on input line 59.
 (pdftex.def)             Requested size: 301.77304pt x 167.06956pt.
-<Abb/emission.pdf, id=71, page=3, 301.77306pt x 167.05725pt>
+<Abb/emission.pdf, id=80, page=3, 301.77306pt x 167.05725pt>
 File: Abb/emission.pdf Graphic file (type pdf)
 <use Abb/emission.pdf, page 3>
 Package pdftex.def Info: Abb/emission.pdf , page3 used on input line 61.
 (pdftex.def)             Requested size: 301.77304pt x 167.06956pt.
-<Abb/emission.pdf, id=72, page=4, 301.77306pt x 167.05725pt>
+<Abb/emission.pdf, id=81, page=4, 301.77306pt x 167.05725pt>
 File: Abb/emission.pdf Graphic file (type pdf)
 <use Abb/emission.pdf, page 4>
 Package pdftex.def Info: Abb/emission.pdf , page4 used on input line 63.
 (pdftex.def)             Requested size: 301.77304pt x 167.06956pt.
-<Abb/emission.pdf, id=73, page=5, 301.77306pt x 167.05725pt>
+<Abb/emission.pdf, id=82, page=5, 301.77306pt x 167.05725pt>
 File: Abb/emission.pdf Graphic file (type pdf)
 <use Abb/emission.pdf, page 5>
 Package pdftex.def Info: Abb/emission.pdf , page5 used on input line 65.
 (pdftex.def)             Requested size: 301.77304pt x 167.06956pt.
-<Abb/emission.pdf, id=74, page=6, 301.77306pt x 167.05725pt>
+<Abb/emission.pdf, id=83, page=6, 301.77306pt x 167.05725pt>
 File: Abb/emission.pdf Graphic file (type pdf)
 <use Abb/emission.pdf, page 6>
 Package pdftex.def Info: Abb/emission.pdf , page6 used on input line 72.
 (pdftex.def)             Requested size: 301.77304pt x 167.06956pt.
 )
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 (./Abb/aufbau_laser.pdf_tex
-<Abb/aufbau_laser.pdf, id=77, page=1, 290.95775pt x 147.97934pt>
+<Abb/aufbau_laser.pdf, id=85, page=1, 290.95775pt x 147.97934pt>
 File: Abb/aufbau_laser.pdf Graphic file (type pdf)
 <use Abb/aufbau_laser.pdf, page 1>
 Package pdftex.def Info: Abb/aufbau_laser.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 290.95775pt x 147.98799pt.
-<Abb/aufbau_laser.pdf, id=78, page=2, 290.95775pt x 147.97934pt>
+<Abb/aufbau_laser.pdf, id=86, page=2, 290.95775pt x 147.97934pt>
 File: Abb/aufbau_laser.pdf Graphic file (type pdf)
 <use Abb/aufbau_laser.pdf, page 2>
 Package pdftex.def Info: Abb/aufbau_laser.pdf , page2 used on input line 59.
 (pdftex.def)             Requested size: 290.95775pt x 147.98799pt.
-)
+) [6
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+ <./Abb/emission.pdf> <./Abb/emission.pdf
 
-(./Abb/faserlaser.pdf_tex
-<Abb/faserlaser.pdf, id=80, page=1, 319.67805pt x 187.87744pt>
+pdfTeX warning: pdflatex (file ./Abb/emission.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+> <./Abb/emission.pdf
+
+pdfTeX warning: pdflatex (file ./Abb/emission.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+> <./Abb/emission.pdf
+
+pdfTeX warning: pdflatex (file ./Abb/emission.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+> <./Abb/emission.pdf
+
+pdfTeX warning: pdflatex (file ./Abb/emission.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+> <./Abb/emission.pdf
+
+pdfTeX warning: pdflatex (file ./Abb/emission.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+> <./Abb/aufbau_laser.pdf
+
+pdfTeX warning: pdflatex (file ./Abb/aufbau_laser.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./Abb/aufbau_laser.pdf
+
+pdfTeX warning: pdflatex (file ./Abb/aufbau_laser.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>] (./Abb/faserlaser.pdf_tex
+<Abb/faserlaser.pdf, id=105, page=1, 319.67805pt x 187.87744pt>
 File: Abb/faserlaser.pdf Graphic file (type pdf)
 <use Abb/faserlaser.pdf, page 1>
 Package pdftex.def Info: Abb/faserlaser.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 319.67805pt x 187.88844pt.
-<Abb/faserlaser.pdf, id=81, page=2, 319.67805pt x 187.87744pt>
+<Abb/faserlaser.pdf, id=106, page=2, 319.67805pt x 187.87744pt>
 File: Abb/faserlaser.pdf Graphic file (type pdf)
 <use Abb/faserlaser.pdf, page 2>
 Package pdftex.def Info: Abb/faserlaser.pdf , page2 used on input line 58.
 (pdftex.def)             Requested size: 319.67805pt x 187.88844pt.
-<Abb/faserlaser.pdf, id=82, page=3, 319.67805pt x 187.87744pt>
+<Abb/faserlaser.pdf, id=107, page=3, 319.67805pt x 187.87744pt>
 File: Abb/faserlaser.pdf Graphic file (type pdf)
 <use Abb/faserlaser.pdf, page 3>
 Package pdftex.def Info: Abb/faserlaser.pdf , page3 used on input line 61.
 (pdftex.def)             Requested size: 319.67805pt x 187.88844pt.
-<Abb/faserlaser.pdf, id=83, page=4, 319.67805pt x 187.87744pt>
+<Abb/faserlaser.pdf, id=108, page=4, 319.67805pt x 187.87744pt>
 File: Abb/faserlaser.pdf Graphic file (type pdf)
 <use Abb/faserlaser.pdf, page 4>
 Package pdftex.def Info: Abb/faserlaser.pdf , page4 used on input line 64.
 (pdftex.def)             Requested size: 319.67805pt x 187.88844pt.
-) [5]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [6 <./Abb/diodenkennlinie.pdf>] [7 <./Abb/emission.pdf> <./Abb/emission.pdf
-
-pdfTeX warning: pdflatex (file ./Abb/emission.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
-> <./Abb/emission.pdf
-
-pdfTeX warning: pdflatex (file ./Abb/emission.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
-> <./Abb/emission.pdf
-
-pdfTeX warning: pdflatex (file ./Abb/emission.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
-> <./Abb/emission.pdf
-
-pdfTeX warning: pdflatex (file ./Abb/emission.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
-> <./Abb/emission.pdf
-
-pdfTeX warning: pdflatex (file ./Abb/emission.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
-> <./Abb/aufbau_laser.pdf
-
-pdfTeX warning: pdflatex (file ./Abb/aufbau_laser.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
-> <./Abb/aufbau_laser.pdf
-
-pdfTeX warning: pdflatex (file ./Abb/aufbau_laser.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
-> <./Abb/faserlaser.pdf
+)) [7 <./Abb/faserlaser.pdf> <./Abb/faserlaser.pdf
 
 pdfTeX warning: pdflatex (file ./Abb/faserlaser.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
@@ -1344,11 +1335,7 @@ dfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./Abb/faserlaser.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
-> <./Abb/faserlaser.pdf
-
-pdfTeX warning: pdflatex (file ./Abb/faserlaser.pdf): PDF inclusion: multiple p
-dfs with page group included in a single page
->]
+>] [8]
 \openout2 = `Kap/durchfuehrung.aux'.
 
  (./Kap/durchfuehrung.tex)
@@ -1357,7 +1344,7 @@ dfs with page group included in a single page
  (./Kap/fazit.tex)
 \openout2 = `Kap/quellen.aux'.
 
- (./Kap/quellen.tex) [8
+ (./Kap/quellen.tex) [9
 
 
 
@@ -1382,13 +1369,13 @@ Package logreq Info: Writing requests to 'uo.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 31629 strings out of 483057
- 633251 string characters out of 5962301
- 1390637 words of memory out of 5000000
+ 31630 strings out of 483057
+ 633257 string characters out of 5962301
+ 1387637 words of memory out of 5000000
  46080 multiletter control sequences out of 15000+600000
  542032 words of font info for 60 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
- 64i,15n,81p,10117b,2193s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,14n,81p,10117b,2193s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -1401,10 +1388,10 @@ amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
 10.pfb>
-Output written on uo.pdf (8 pages, 200201 bytes).
+Output written on uo.pdf (9 pages, 200753 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 221 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
  179 words of extra memory for PDF output out of 10000 (max. 10000000)
 
