@@ -172,6 +172,141 @@ Abbildung schraffiert, und das Signal kann weiter ausgewertet werden.
 \section{Nichtlineare Optik}
     \subsection{Doppelbrechung}
 
+Um das Prinzip der Doppelbrechung verstehen zu können, gilt es zunächst die 
+Polarisation des Lichts zu verstehen. Hierzu betrachten wir zunächst die 
+Eigenschaften einer elektromagnetischen Welle.\par
+Aus den Maxwellgleichungen lässt sich die Transversalität der elektromagnetischen
+Welle zeigen, der Wellenvektor $\vec{k}$ steht also senkrecht zum elektrischen 
+Feld $\vec{E}$. Für eine Welle die sich in z-Richtung ausbreitet, gilt also
+\[
+    \vec{E} = \vec{E}_x + \vec{E}_y = 
+      \begin{pmatrix}
+          E_{x0} \cos(kz-\omega t)\\
+          E_{y0} \cos(kz-\omega t + \epsilon)\\
+          0
+      \end{pmatrix}
+\]
+Das $\epsilon$ beschreibt hierbei die Phasendifferenz der Feldkomponenten.
+
+Diese Betrachtung lässt nun einige wichtige Polarisationszustände zu.\\
+\textbf{Linear polarisiert:} Für die Fälle $\epsilon = \pm 2n \, \pi$ und
+$\epsilon = (2n+1) \pi$ sind die Komponenten $\vec{E}_x$ und $\vec{E}_y$ in bzw.
+außer Phase. Dies führt zu einer zeitlich konstanten Feldrichtung.
+\[
+    \vec{E} = 
+      \begin{pmatrix}
+          E_{x0}\\
+          E_{y0}\\
+          0
+      \end{pmatrix}
+    \cos (kz-\omega t) = \vec{E}_0 \cos (kz-\omega t)
+\]
+\textbf{Zirkular polarisiert:} Ist nun $E_{x0} = E_{y0} = E_0$ mit 
+$E = | \vec{E} |$ und $\epsilon = \frac{\pi}{2} + m \pi$, $m \in N_0$, so beschreibt
+die Drehung der Feldrichtung über die Zeit einen Kreis in der x-y Ebene. Es gilt
+\[
+    \vec{E} = E_0
+        \begin{pmatrix}
+            \cos(kz-\omega t)\\
+            \pm \sin(kz-\omega t)
+            0
+        \end{pmatrix}
+\]
+
+Für alle anderen Fälle ist das Licht \textbf{elliptisch polarisiert}. Die 
+Drehung der Feldrichtung beschreibt eine Ellipse in der x-y Ebene.
+
+In der linearen Optik werden Materialien betrachtet, die optisch isotrop sind.
+Die Lichtausbreitung war also unabhängig von der Richtung. Es gilt
+\[
+    \vec{D} = \epsilon_0 \epsilon \vec{E}
+\]
+Die dielektrischen Eigenschaften der Medien wird durch die dielektrische
+Verschiebung $\vec{D}$ berücksichtigt. Das Feld $\vec{E}$ wird durch
+die dielektrische Konstante $\epsilon$ abgeschwächt. Die Richtung von 
+$\vec{D}$ und $\vec{E}$ ist jedoch immer die Gleiche. 
+
+In der nichtlinearen Optik muss dieses Konzept für nichtisotrope Medien erweitert
+werden. Ein solches Medium ist bezüglich seiner dielektrischen Eigenschaften nicht
+mehr symmetrisch. Die Konstante $\epsilon$ wird durch den Tensor $\epsilon_{ij}$ 
+ersetzt. Dieser hat die Form
+\[
+    \epsilon_{ij} = 
+        \begin{pmatrix}
+            \epsilon_{11} \; \epsilon_{12} \; \epsilon_{13} \\
+            \epsilon_{21} \; \epsilon_{22} \; \epsilon_{23} \\
+            \epsilon_{31} \; \epsilon_{32} \; \epsilon_{33} \\
+        \end{pmatrix}
+\]
+Die Gleichung $\vec{D} = \epsilon_0 \epsilon_{ij} \vec{E}$ kann man noch 
+vereinfachen,
+indem man die Achsen des Koordinatensystems den Hauptachsen des Kristalls angleicht.
+Dadurch muss man nur die Einträge der Diagonale betrachten.
+So ergibt sich für die einzelnen Richtungen
+\[
+    D_i = \epsilon_0 \epsilon_i E_i, \qquad i=x,y,z
+\]
+Mit dieser Gleichung lassen sich drei Arten von Medien unterscheiden.
+
+\begin{enumerate}
+    \item \textbf{Optisch isotrope Medien:} 
+          $\epsilon_x = \epsilon_y = \epsilon_z = \epsilon$
+          Die Richtung spielt also keine Rolle und man landet in der linearen Optik.
+
+    \item \textbf{Optisch einachsige Kristalle:}
+          Man setzt eine optische Achse, z.B. in z-Richtung. Für die Richtungen 
+          gilt dann $\epsilon_x = \epsilon_y = \epsilon_{\bot}, \quad 
+                     \epsilon_z = \epsilon_{\parallel}$
+          Die Lichtausbreitung längs der optischen Achse erfolgt dann ohne
+          Polarisationsabhängigkeit. Bei allen anderen Richtungen werden die 
+          unterschiedlichen Polarisationsrichtungen des einfallenden Lichtes
+          unterschiedlich gebrochen. Die quantitative Betrachtung erfolgt 
+          später.
+    \item \textbf{Optisch zweiachsige Kristalle:}
+          Hier gilt $\epsilon_x \neq \epsilon_y \neq \epsilon_z \neq \epsilon_x$.
+          Es gibt also zwei Achsen mit polarisationsabhängiger Lichtausbreitung.
+\end{enumerate}
+Für diesen Versuch besonders wichtig sind die optisch einachsigen Kristalle, die im
+folgenden genauer betrachtet werden sollen.
+
+Die Lichtausbreitung im Medium kann man mithilfe der oben Beziehung zwischen 
+$\vec{D}$ und $\vec{E}$ und den Maxwellgleichungen herleiten. Daraus kann man 
+für eine ebene Welle in nichtmagnetischen Substanzen folgende Relationen herleiten
+\[
+    \vec{D} \bot \vec{k}, \quad \vec{B} \bot \vec{k}, \quad
+    \vec{B} \bot \vec{E}, \quad \vec{B} \bot \vec{D}
+\]
+Für den Poyntingvektor $\vec{S}$, der den Energiefluss der Welle beschreibt, 
+gilt analog zur linearen Optik
+\[
+    \vec{S} = \frac{1}{\mu_0} \vec{E} \times \vec{B}
+\]
+Wie in Abbildung \ref{abb:doppel} zu sehen, breitet sich der Strahl nicht in
+Richtung des Wellenvektors, sondern in Richtung des Poyntingvektors aus. In der
+linearen Optik zeigen diese in die gleiche Richtung.
+\begin{figure}[h]
+  \centering
+  \input{Abb/doppelbrechung.tex}
+    \caption{a) Skizze der einzelnen Vektoren einer Welle. b) Skizze der 
+             Wellenausbreitung des außerordentlichen Strahls im Medium.}
+  \label{abb:doppel}
+\end{figure}
+Für einen einachsigen Kristall lässt sich ein lineares Gleichungssystem 
+aufstellen, woraus sich dann 2 Werte für den Brechungsindex $n$ bestimmen lassen.
+\[
+    \frac{1}{n_{ao}^2} = \frac{\cos^2(\Theta)}{\epsilon_{\bot}} +
+                         \frac{\sin^2(\Theta)}{\epsilon_{\parallel}},
+    \qquad n_0 = \sqrt{\epsilon_{\bot}}
+\]
+Hier beschreibt $n_{ao}$ den außerordentlichen Strahl, dessen Ausbreitung in
+Abbildung \ref{abb:doppel} b) zu sehen ist. $n_o$ beschreibt dagegen den 
+ordentlichen Strahl, der den Gesetzen der linearen Optik folgt. 
+$\Theta$ ist der vom Wellenvektor $\vec{k}$ und der optischen Achse 
+eingeschlossene Winkel. Für einen zur optischen Achse parallelen Strahl, 
+$\Theta=0$, ergibt sich $n_0$ als einziger Brechungsindex, sodass in diesem Fall
+ordentliche Strahl beobachtet werden kann.
+
+\autocite{zinth}, \autocite{hecht}
     \subsection{Phasenanpassung}
 
     \subsection{Nichtlineare Autokorrelation}

@@ -1,0 +1,81 @@
+\begin{tikzpicture}[every text node part/.style={align=center}]
+%Richtungen der Vektoren
+    %Achsen
+    \draw[->] (3,0) -- (1.5,-1.5); %z
+    \draw (1.5,-1.5) node
+        [anchor=east]
+        {$z$};
+    \draw[->] (3,0) -- (6,0);    %x
+    \draw (6,0) node
+        [anchor=west]
+        {$x$};
+    \draw[->] (3,0) -- (3,3);    %y
+    \draw (3,3) node
+        [anchor=south]
+        {$y$};
+
+    %Vektoren
+    \draw[thick, ->] (3,0) -- (5,0);
+    \draw (5,0) node
+        [anchor=north]
+        {$\vec{k}$};
+    \draw[thick, ->] (3,0) -- (3,2);
+    \draw (3,2) node
+        [anchor=east]
+        {$\vec{D}$};
+    \draw[thick, ->] (3,0) -- (2,-1);
+    \draw (2,-1) node
+        [anchor=west]
+        {$\vec{B}$};
+    \draw[thick, ->] (3,0) -- (4.5,1);
+    \draw (4.5,1) node
+        [anchor=west]
+        {$\vec{S}$};
+    \draw[thick, ->] (3,0) -- (2,1.5);
+    \draw (2,1.5) node
+        [anchor=south]
+        {$\vec{E}$};
+
+    %Beschreibungen
+    \draw (3,2) node
+        [anchor=west]
+        {$\vec{B} \bot \vec{k}$ \\ $\vec{D} \bot \vec{B}$};
+    \draw (2,1) node
+        [anchor=east]
+        {$\vec{E} \bot \vec{S}$ \\ $\vec{E} \bot \vec{B}$};
+    \draw (1.8,-1.7) node
+        [anchor=west]
+        {$\vec{B} \bot \vec{S}$ \\ $\vec{B} \bot \vec{k}$};
+
+%Wellenfront im Medium
+    %Rechteck
+    \draw[thick] (10,-0.5) -- (10,2.5);
+    \draw[thick] (14,-0.5) -- (14,2.5);
+    \draw[thick] (10,-0.5) -- (14,-0.5);
+    \draw[thick] (10,2.5) -- (14,2.5);
+    \draw (12,-0.5) node
+        [anchor=north]
+        {Doppelbrechendes Medium};
+
+    %Wellenfronten
+    \foreach \x in {0,1,...,4}{
+        \draw[thick] (9.1 + \x*0.2, 0.07) -- (9.1 + \x*0.2, 0.57);}
+    \foreach \x in {1,2,...,20}{
+        \draw[thick] (9.9 + \x*0.2, 0 + \x*0.07) -- (9.9 + \x*0.2, 0.5 + \x*0.07);}
+    \foreach \x in {1,2,...,5}{
+        \draw[thick] (13.9 + \x*0.2, 1.42) -- (13.9 + \x*0.2, 1.92);}
+    \draw[->,thick] (11.3,0.53) -- (11.7,0.53);
+    \draw (11.7,0.53) node
+        [anchor=north]
+        {$\vec{k}$};
+
+    %Strahlrichtung
+    \draw[thick] (9,0.32) -- (10.1,0.32);
+    \draw[thick] (10.1,0.32) -- (13.9,1.67);
+    \draw[->,thick] (13.9,1.67) -- (15.2,1.67);
+    \draw (15.2, 1.67) node
+        [anchor=west]
+        {$\vec{S}$};
+
+\end{tikzpicture}
+

@@ -1,0 +1,94 @@
+\ProvidesPackage{klausurpack} % wie Dateiname
+
+% kein \usepackage...
+\RequirePackage{expl3}    %lädt Paket, falls noch nicht geladen
+
+\RequirePackage{l3keys2e}
+
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+
+\RequirePackage{xparse}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+
+\RequirePackage{graphicx}
+
+\RequirePackage{scrlayer-scrpage}
+
+\RequirePackage{lastpage}
+
+\definecolor{Reingrau}{RGB}{142,141,141}
+\definecolor{Eisvogelblau}{RGB}{0,137,147}
+\definecolor{Saphirblau}{RGB}{3,35,82}
+
+%-----------------------------------------------------------------------------------------
+%Neues Titelblatt mit variablem Titel, Autor und Datum
+
+\renewcommand\maketitle{%
+	\begin{titlepage}
+		\centering
+		{\scshape \LARGE \color{Reingrau}Universität Regensburg \par}
+		\vspace{1cm}
+		{\scshape\Large \color{Saphirblau}{F-Praktikum}\par}
+		\vspace{1.5cm}
+		{\huge\bfseries \@title \par}
+		\vspace{2cm}
+		\includegraphics[width=0.6\textwidth]{ur_logo.png}\par
+		\vfill
+		{\large \color{Eisvogelblau}{\@author}\par}
+
+		\vfill
+
+		{\large \@date \par}
+		
+	\end{titlepage}
+}
+
+%-------------------------------------------------------------------------------------------
+
+\addtokomafont{chapter}{\color{blue}} %section in Farbe
+%\addtokomafont{section}{\color{green}}
+%\addtokomafont{subsection}{\color{red}} 
+
+%-------------------------------------------------------------------------------------------
+
+%\pagestyle{headings}
+%\renewcommand{\chapterpagestyle}{headings}
+%\setheadsepline{2pt}
+%\clearscrheadfoot
+%\ihead{F-Praktikum}
+%\ohead{Ultraschnelle Optik}
+%\cfoot{Seite~\thepage~von~\pageref{LastPage}}
+
+%-------------------------------------------------------------------------------------------
+%Neuer Pagestyle mit Logo, Banner und Seitenzahl
+
+\DeclareNewLayer[hoffset=2.4cm, voffset=0.75cm, contents={
+				\includegraphics[height=1.5cm]{ur_logo.png}},background]{kopf}
+				
+\DeclareNewLayer[hoffset=4.3cm, voffset=0.5cm, contents={
+			\begin{tikzpicture}
+				\filldraw[fill=Reingrau, draw=Reingrau] (0.5,0.25) rectangle (7.65,0.8);
+				\filldraw[fill=Eisvogelblau, draw=Eisvogelblau] (7.65,0.25) rectangle (14.8,0.8);
+			\end{tikzpicture}
+		},background]{kopf_2}
+		
+\DeclareNewLayer[foot, contents={%
+			\begin{center}%
+			    \thepage~von~\pageref{LastPage}%
+			\end{center}}%
+			]{fuß}
+			
+				
+\DeclareNewPageStyleByLayers{logo_stil}{kopf, kopf_2, fuß}
+\RedeclarePageStyleByLayers{plain.scrheadings}{fuß}
+\AddLayersToPageStyle{plain}{kopf, kopf_2}
+
+\pagestyle{logo_stil}
+
+%-------------------------------------------------------------------------------------------
+
+
+\endinput % Paket abschließen

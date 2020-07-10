@@ -1,0 +1,15 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'uo.blg'
+[21] biber:315> INFO - === Fri Jul 10, 2020, 16:08:33
+[53] Biber.pm:371> INFO - Reading 'uo.bcf'
+[100] Biber.pm:889> INFO - Found 4 citekeys in bib section 0
+[110] Biber.pm:4093> INFO - Processing section 0
+[121] Biber.pm:4254> INFO - Looking for bibtex format file 'literatur.bib' for section 0
+[128] bibtex.pm:1512> INFO - LaTeX decoding ...
+[135] bibtex.pm:1329> INFO - Found BibTeX data source 'literatur.bib'
+[164] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[164] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[164] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[165] Biber.pm:3927> INFO - No sort tailoring available for locale 'de-DE'
+[168] bbl.pm:636> INFO - Writing 'uo.bbl' with encoding 'UTF-8'
+[169] bbl.pm:739> INFO - Output to uo.bbl

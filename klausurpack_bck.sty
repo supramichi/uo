@@ -1,0 +1,60 @@
+\ProvidesPackage{klausurpack} % wie Dateiname
+
+% kein \usepackage...
+\RequirePackage{expl3}    %lädt Paket, falls noch nicht geladen
+
+\RequirePackage{l3keys2e}
+
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+
+\RequirePackage{xparse}
+
+\RequirePackage{xcolor}
+
+\RequirePackage{graphicx}
+
+\RequirePackage{scrlayer-scrpage}
+
+\RequirePackage{lastpage}
+
+\definecolor{Reingrau}{RGB}{142,141,141}
+\definecolor{Eisvogelblau}{RGB}{0,137,147}
+\definecolor{Saphirblau}{RGB}{3,35,82}
+
+\renewcommand\maketitle{%
+	\begin{titlepage}
+		\centering
+		{\scshape \LARGE \color{Reingrau}Universität Regensburg \par}
+		\vspace{1cm}
+		{\scshape\Large \color{Saphirblau}{F-Praktikum}\par}
+		\vspace{1.5cm}
+		{\huge\bfseries \@title \par}
+		\vspace{2cm}
+		\includegraphics[width=0.6\textwidth]{ur_logo.png}\par
+		\vfill
+		{\large \color{Eisvogelblau}{\@author}\par}
+
+		\vfill
+
+		{\large \@date \par}
+		
+	\end{titlepage}
+}
+
+
+\addtokomafont{chapter}{\color{blue}} %section in Farbe
+%\addtokomafont{section}{\color{green}}
+%\addtokomafont{subsection}{\color{red}} 
+
+
+\pagestyle{headings}
+\renewcommand{\chapterpagestyle}{headings}
+\setheadsepline{2pt}
+\clearscrheadfoot
+\ihead{F-Praktikum}
+\ohead{Ultraschnelle Optik}
+\cfoot{\thepage~von~\pageref{LastPage}}
+
+
+\endinput % Paket abschließen

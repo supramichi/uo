@@ -1,0 +1,11 @@
+# Fdb version 3
+["pdflatex"] 1594389375 "doppelbrechung.tex" "doppelbrechung.pdf" "doppelbrechung" 1594389375
+  "/etc/texmf/web2c/texmf.cnf" 1593687410 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551493644 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1551493644 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1593688115 1768675 de0429c55ace9a3867679d496e3a27b3 ""
+  "doppelbrechung.aux" 1594389375 8 a94a2480d3289e625eea47cd1b285758 ""
+  "doppelbrechung.tex" 1594388032 2244 11bf4d58d018436fd13d83464fb8b5f0 ""
+  (generated)
+  "doppelbrechung.log"
+  "doppelbrechung.pdf"

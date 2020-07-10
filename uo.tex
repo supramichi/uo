@@ -18,16 +18,19 @@ eprint=false,%
 doi=false,%
 maxnames=5]{biblatex}
 \addbibresource{literatur.bib}
+\usepackage{klausurpack}
 
 \renewbibmacro{in:}{}
 
 \title{Ultraschnelle Optik}
-\author{Michael Rößner \and Jonas Schambeck}
+\author{Michael Rößner \quad Jonas Schambeck}
 
 \def\f#1{\textbf{#1}}
 
 \begin{document}
-    \include{titlepage}
+    %\include{titlepage}
+    \maketitle
+    \setcounter{page}{1}
     \tableofcontents
 
     \include{Kap/einleitung}
